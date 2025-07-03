@@ -15,7 +15,7 @@ spec:
         app: medicure-app
     spec:
       containers:
-      - name: medicure-app -container
+      - name: medicure-app-container
         image: shinojc/medicure
         ports:
         - containerPort: 8082
